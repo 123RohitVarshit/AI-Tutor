@@ -26,7 +26,9 @@ function App() {
     setResult({ duration }); // Store duration for UI display
 
     try {
-      const response = await fetch("/api/tutor", {
+      // Use environment variable for API URL (Node.js backend), default to relative /api for local dev
+      const API_URL = import.meta.env.VITE_API_BASE_URL || "";
+      const response = await fetch(`${API_URL}/api/tutor`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ topic, duration }),

@@ -18,7 +18,7 @@ app = FastAPI(title="AI Tutor - Python Service")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5000"],
+    allow_origins=["*"], # Allow Node.js backend hosted anywhere to call this
     allow_methods=["POST"],
     allow_headers=["*"],
 )
