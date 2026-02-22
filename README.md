@@ -2,6 +2,15 @@
 
 An intelligent, microservices-based AI Tutor designed specifically for Indian engineering students preparing for placements. It provides complete, structured, and duration-controlled walkthroughs on technical topics (DSA, MERN, System Design, etc.) along with automatically generated Audio Text-to-Speech (TTS).
 
+## 📸 Screenshots
+
+<div align="center">
+  <img src="./images/Screenshot%202026-02-22%20120321.png" alt="AI Tutor UI 1" width="48%">
+  <img src="./images/Screenshot%202026-02-22%20120353.png" alt="AI Tutor UI 2" width="48%">
+  <img src="./images/Screenshot%202026-02-22%20120410.png" alt="AI Tutor UI 3" width="48%">
+  <img src="./images/Screenshot%202026-02-22%20120426.png" alt="AI Tutor UI 4" width="48%">
+</div>
+
 ## 🏗️ Architecture
 
 The project is broken down into a modern microservices architecture to ensure high performance, separation of concerns, and robust Server-Sent Events (SSE) streaming.
